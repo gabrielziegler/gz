@@ -1,14 +1,17 @@
 This folder contains custom made scripts and example dataset which demonstrate SPM longitudinal processing 
 of qMRI data applied during this study. 
 
+1. Install software
 Before beeing able to use this code please install SPM and include in matlab path (https://www.fil.ion.ucl.ac.uk/spm/software/download/)
 Please also install CAT toolbox for SPM into toolbox subdirectory 'cat12' (http://www.neuro.uni-jena.de/cat/index.html#DOWNLOAD);
 Finally, please copy the "trajectory" folder into the SPM toolbox subdirectory before continue.
 
-To run Voxel-based Morphometry (VBM) preprocessing demo with an example dataset of one anonymous subject
+2. unzip image files in all “mpm_example_data” subfolders
+
+3. To run Voxel-based Morphometry (VBM) preprocessing demo with an example dataset of one anonymous subject
 please run matlab script "demo_preprocessing_vbm"
 
-To run Voxel-based Quantification (VBQ) preprocessing demo with all MPM parameter maps of the same subject
+4. To run Voxel-based Quantification (VBQ) preprocessing demo with all MPM parameter maps of the same subject
 please run "demo_preprocessing_vbq"
 
 The expected runtime based on a MACBOOK PRO 2,5 GHz Intel Core i7 is around an 1-2 hours. 
